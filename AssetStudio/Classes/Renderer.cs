@@ -180,7 +180,6 @@ namespace AssetStudio
 
                 var m_SortingOrder = reader.ReadInt16();
                 reader.AlignStream();
-
                 if (version >= (6000, 3)) //6000.3 and up
                 {
                     var m_MaskInteraction = reader.ReadInt32();
